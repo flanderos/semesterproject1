@@ -1,0 +1,78 @@
+@import url(fonts/Lorindra);
+
+body {
+    background-color: #FFF ;
+    font-family: 'Bakbak One', cursive;
+    max-width: 2000px;
+    margin: auto;
+}
+
+header {
+    min-height: 100vh;
+    margin: auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.main-header {
+    font-size: 4rem;
+    font-family: 'Bakbak One', cursive;
+}
+
+.cta-btn {
+    font-size: 2rem;
+    background-color: #00c3f5;
+    color: #FFF;
+    padding: 1.5rem;
+    border-radius: 20px;
+    text-decoration: none;
+    font-family: 'Bakbak One', cursive;
+    
+}
+
+.first-section {
+    min-height: 100vh;
+    margin: auto;
+    width: 90%;
+    background-color: #0E0E0C;
+    padding: 1rem;
+    color: #FFF;
+    
+    
+}
+
+.black-box {
+    margin: auto;
+    max-width: 60%;
+    padding: 5rem;
+    background-image: url(images/celso-405219.jpg);
+    background-position-x: center center;
+    background-size: contain;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    
+    
+}
+
+.pink-heading {
+    color:#ff53f4 ;
+    font-size: 1.6rem;
+    
+}
+
+.under-txt {
+    margin-top:50%;
+}
+
+.pink-txt {
+    font-size: 1.6rem;
+    color: #ff53f4;
+    padding-bottom: 1rem;
+}
+
+.second-section {
+    min-height: 80vh;
+}

@@ -1,13 +1,18 @@
 @import url(fonts/Lorindra);
+:root {
+    --main-btn-color:#00c3f5;
+}
 
 body {
     background-color: #FFF ;
     font-family: 'Bakbak One', cursive;
     max-width: 2000px;
     margin: auto;
+    cursor:url(images/Group16.png), auto;
+    
 }
 
-header {
+.main-section {
     min-height: 100vh;
     margin: auto;
     width: 90%;
@@ -15,6 +20,7 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    
 }
 
 .main-header {
@@ -24,7 +30,7 @@ header {
 
 .cta-btn {
     font-size: 2rem;
-    background-color: #00c3f5;
+    background-color: var(--main-btn-color);
     color: #FFF;
     padding: 1.5rem;
     border-radius: 20px;
@@ -32,6 +38,8 @@ header {
     font-family: 'Bakbak One', cursive;
     
 }
+
+
 
 .first-section {
     min-height: 100vh;
@@ -53,26 +61,56 @@ header {
     background-size: contain;
     background-repeat:no-repeat;
     background-attachment: fixed;
+    color: #fff;
+    
     
     
 }
 
 .pink-heading {
     color:#ff53f4 ;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     
 }
 
 .under-txt {
     margin-top:50%;
+    color: #fff;
 }
 
 .pink-txt {
-    font-size: 1.6rem;
+    font-size: 1.9rem;
     color: #ff53f4;
     padding-bottom: 1rem;
 }
 
 .second-section {
     min-height: 80vh;
+    margin: auto;
+    display: flex;
+
+    
 }
+
+.kids-html-btn {
+    background-color:var(--main-btn-color) ;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 20px;
+    
+    
+}
+
+.teachers-html-btn {
+    background-color:var(--main-btn-color) ;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 20px;
+   
+
+}
+

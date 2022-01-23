@@ -1,116 +1,338 @@
 @import url(fonts/Lorindra);
 :root {
-    --main-btn-color:#00c3f5;
+  --main-btn-color: #00c3f5;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-    background-color: #FFF ;
-    font-family: 'Bakbak One', cursive;
-    max-width: 2000px;
-    margin: auto;
-    cursor:url(images/Group16.png), auto;
+  background-color: #fff;
+  font-family: "Bakbak One", cursive;
+  max-width: 2000px;
+  margin: auto;
+
+  /*cursor:url(images/pointer.png), auto;*/
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  transform: scale(1.1);
+  transition: 0.1s;
+}
+
+#topheader {
+  background-color: rgb(29, 28, 28);
+  color: #fff;
+  position: fixed;
+  max-width: 2000px;
+  width: 100%;
+  z-index: 2;
+ 
+}
+
+.mainmenu {
+    padding: 1rem;
+    transform: translateY(-500px);
+    transition: 0.5s;
     
+    
+  }
+
+.homeicon {
+  height: 80px;
+  width: 80px;
+ 
+  
+}
+
+
+
+
+.hamburger-icon{
+    position:absolute;
+    z-index: 10;
+    right: 0;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.hamburger-icon:hover {
+    cursor: pointer;
+}
+
+.hamburger-close {
+    display: none;
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+    margin-top: 20px;
+    
+}
+
+#hamburger-menu {
+    display: none;
+}
+
+
+#hamburger-menu:checked ~ .hamburger-icon {
+    display: none;
+    transition: 1s;
+
+}
+
+#hamburger-menu:checked ~ .hamburger-close {
+    display: block;
+    transition: 1s;
+    
+}
+
+#hamburger-menu:checked ~ .mainmenu {
+    transform: translateY(0);
+}
+
+
+
+.mainmenu ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  align-items: flex-end;
+}
+
+.hamburgerbtn {
+  position: absolute;
+  height: 25px;
+  width: 25px;
+  top: 0;
+  right: 0;
+  margin-right: 10px;
+  margin-top: 10px;
+  display: none;
 }
 
 .main-section {
-    min-height: 100vh;
-    margin: auto;
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    
+  background-image: url(/images/exhibition-1863344_1920.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 90vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.logo {
+  height: 200px;
+  width: 200px;
 }
 
 .main-header {
-    font-size: 4rem;
-    font-family: 'Bakbak One', cursive;
+  font-size: 3rem;
+  font-family: "Bakbak One", cursive;
+  color: rgb(255, 255, 255);
+  text-shadow:
+         -1px -1px 0 #000,
+         1px -1px 0 #000c,
+         -1px 1px 0 #000c,
+         1px 1px 0 #000c;
+        
+  
+  
 }
 
 .cta-btn {
-    font-size: 2rem;
-    background-color: var(--main-btn-color);
-    color: #FFF;
-    padding: 1.5rem;
-    border-radius: 20px;
-    text-decoration: none;
-    font-family: 'Bakbak One', cursive;
-    
+  display: inline-block;
+  font-size: 1.5vw;
+  background-color: var(--main-btn-color);
+  color: #fff;
+  border-radius: 10px;
+  text-decoration: none;
+  padding: 0.5rem;
+  text-align: center;
+  min-width: 150px;
+  max-width: none;
+ 
+  
+  
+  
 }
 
+.cta-btn:hover {
+  transform: scale(1.01);
+  transition: 0.2s;
+}
 
+.subheader {
+  color: #fff;
+  text-shadow:
+         -1px -1px 0 #000,
+         1px -1px 0 #000c,
+         -1px 1px 0 #000c,
+         1px 1px 0 #000c;
+}
 
 .first-section {
-    min-height: 100vh;
-    margin: auto;
-    width: 90%;
-    background-color: #0E0E0C;
-    padding: 1rem;
-    color: #FFF;
-    
-    
+  min-height: 100vh;
+  margin: auto;
+  position: sticky;
+  background-color: #0e0e0c;
+  padding: 1rem;
+  color: #fff;
 }
 
 .black-box {
-    margin: auto;
-    max-width: 60%;
-    padding: 5rem;
-    background-image: url(images/celso-405219.jpg);
-    background-position-x: center center;
-    background-size: contain;
-    background-repeat:no-repeat;
-    background-attachment: fixed;
-    color: #fff;
-    
-    
-    
+  margin: auto;
+  max-width: 60%;
+  background-image: url(images/celso-405219.jpg);
+  background-position-x: center ;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #fff;
+  padding: 50px;
 }
 
 .pink-heading {
-    color:#ff53f4 ;
-    font-size: 1.8rem;
-    
+  color: #ff53f4;
+  font-size: 1.8rem;
 }
 
 .under-txt {
-    margin-top:50%;
-    color: #fff;
+  margin-top: 30%;
+  color: #fff;
 }
 
 .pink-txt {
-    font-size: 1.9rem;
-    color: #ff53f4;
-    padding-bottom: 1rem;
+  font-size: 1.9rem;
+  color: #ff53f4;
+  padding-bottom: 1rem;
 }
 
 .second-section {
-    min-height: 80vh;
-    margin: auto;
-    display: flex;
-
-    
+  background-image: url(images/binoculars.svg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 120vh;
+  margin: auto;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  
 }
 
 .kids-html-btn {
-    background-color:var(--main-btn-color) ;
-    color: #fff;
-    text-decoration: none;
-    font-size: 2rem;
-    padding: 1rem;
-    border-radius: 20px;
-    
-    
+  background-color: var(--main-btn-color);
+  color: #fff;
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 0.5rem;
+  text-align: center;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.kids-box {
+  padding: 1rem;
+}
+
+.for-kids-txt {
+  padding-top: 1rem;
+}
+
+.teachers-box {
+  padding: 1rem;
+}
+
+.teachers-txt {
+  padding-top: 1rem;
 }
 
 .teachers-html-btn {
-    background-color:var(--main-btn-color) ;
-    color: #fff;
-    text-decoration: none;
-    font-size: 2rem;
-    padding: 1rem;
-    border-radius: 20px;
-   
+  background-color: var(--main-btn-color);
+  color: #fff;
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+
+.landingpagefooter {
+  color: #0e0e0c;
+  background-image: url(images/lab-512503_1920.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 1rem;
+  position: static;
+  bottom: 0;
+  z-index: -10;
+  
+}
+
+.week {
+  list-style-type: none;
+  font-weight: bold;
+}
+
+.footerheading {
+    margin: auto auto;
+    
+}
+
+.refreshlink {
+    color: #000;
+}
+
+/* MEDIA QUERYS */
+
+@media (max-width: 1000px) {
+    .main-header {
+        font-size: 2rem;
+        padding: 1rem;
+        
+    }
+
+    .cta-btn {
+        font-size: 1.3rem;
+    }
+
+    .subheader {
+        max-width: 90%;
+        font-size: 1rem;
+    }
+    
+}
+
+@media (max-width: 800px) {
+  .mainmenu ul li {
+    display: none;
+  }
+
+  .hamburgerbtn {
+    display: block;
+  }
 
 }
 
+@media (max-width: 600px) {
+    .main-header {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .main-header {
+        font-size: 1rem;
+        
+    }
+}

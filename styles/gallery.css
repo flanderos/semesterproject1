@@ -1,0 +1,46 @@
+.gallery.html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#topheader {
+    position: relative;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    
+
+}
+
+
+.box {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 30%;
+    padding: 10px;
+    height: auto;
+    
+    
+    
+}
+
+.image {
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.galleryheading {
+    z-index: 20;
+    color: #000;
+    position: relative;
+}
+
+
+

@@ -32,71 +32,57 @@ a:hover {
   position: fixed;
   max-width: 2000px;
   width: 100%;
-  z-index: 2;
- 
+  z-index: 0;
 }
 
 .mainmenu {
-    padding: 1rem;
-    transform: translateY(-500px);
-    transition: 0.5s;
-    
-    
-  }
+  padding: 1rem;
+  transform: translateY(-500px);
+  transition: 0.5s;
+}
 
 .homeicon {
   height: 80px;
   width: 80px;
- 
-  
 }
 
-
-
-
-.hamburger-icon{
-    position:absolute;
-    z-index: 10;
-    right: 0;
-    margin-right: 20px;
-    margin-top: 20px;
+.hamburger-icon {
+  position: absolute;
+  z-index: 10;
+  right: 0;
+  margin-right: 20px;
+  margin-top: 20px;
 }
 
 .hamburger-icon:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .hamburger-close {
-    display: none;
-    position: absolute;
-    right: 0;
-    margin-right: 20px;
-    margin-top: 20px;
-    
+  display: none;
+  position: absolute;
+  right: 0;
+  margin-right: 20px;
+  margin-top: 20px;
 }
 
 #hamburger-menu {
-    display: none;
+  display: none;
 }
 
-
 #hamburger-menu:checked ~ .hamburger-icon {
-    display: none;
-    transition: 1s;
-
+  display: none;
+  transition: 1s;
 }
 
 #hamburger-menu:checked ~ .hamburger-close {
-    display: block;
-    transition: 1s;
-    
+  display: block;
+  transition: 1s;
 }
 
 #hamburger-menu:checked ~ .mainmenu {
-    transform: translateY(0);
+  transform: translateY(0);
 }
-
-
 
 .mainmenu ul {
   display: flex;
@@ -139,14 +125,8 @@ a:hover {
   font-size: 3rem;
   font-family: "Bakbak One", cursive;
   color: rgb(255, 255, 255);
-  text-shadow:
-         -1px -1px 0 #000,
-         1px -1px 0 #000c,
-         -1px 1px 0 #000c,
-         1px 1px 0 #000c;
-        
-  
-  
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000c, -1px 1px 0 #000c,
+    1px 1px 0 #000c;
 }
 
 .cta-btn {
@@ -160,10 +140,6 @@ a:hover {
   text-align: center;
   min-width: 150px;
   max-width: none;
- 
-  
-  
-  
 }
 
 .cta-btn:hover {
@@ -173,15 +149,12 @@ a:hover {
 
 .subheader {
   color: #fff;
-  text-shadow:
-         -1px -1px 0 #000,
-         1px -1px 0 #000c,
-         -1px 1px 0 #000c,
-         1px 1px 0 #000c;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000c, -1px 1px 0 #000c,
+    1px 1px 0 #000c;
 }
 
 .first-section {
-  min-height: 100vh;
+  min-height: 80vh;
   margin: auto;
   position: sticky;
   background-color: #0e0e0c;
@@ -193,7 +166,7 @@ a:hover {
   margin: auto;
   max-width: 60%;
   background-image: url(images/celso-405219.jpg);
-  background-position-x: center ;
+  background-position-x: center;
   background-size: contain;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -228,7 +201,6 @@ a:hover {
   display: flex;
   justify-content: center;
   padding: 1rem;
-  
 }
 
 .kids-html-btn {
@@ -276,7 +248,6 @@ a:hover {
   position: static;
   bottom: 0;
   z-index: -10;
-  
 }
 
 .week {
@@ -285,54 +256,55 @@ a:hover {
 }
 
 .footerheading {
-    margin: auto auto;
-    
+  margin: auto auto;
 }
 
 .refreshlink {
-    color: #000;
+  color: #000;
 }
 
 /* MEDIA QUERYS */
 
 @media (max-width: 1000px) {
-    .main-header {
-        font-size: 2rem;
-        padding: 1rem;
-        
-    }
+  .main-header {
+    font-size: 2rem;
+    padding: 1rem;
+  }
 
-    .cta-btn {
-        font-size: 1.3rem;
-    }
+  .cta-btn {
+    font-size: 1.3rem;
+  }
 
-    .subheader {
-        max-width: 90%;
-        font-size: 1rem;
-    }
-    
+  .subheader {
+    max-width: 90%;
+    font-size: 1rem;
+  }
 }
 
 @media (max-width: 800px) {
+  .mainmenu ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
   .mainmenu ul li {
-    display: none;
+    display: block;
   }
 
   .hamburgerbtn {
     display: block;
   }
-
 }
 
 @media (max-width: 600px) {
-    .main-header {
-        font-size: 1.5rem;
-    }
+  .main-header {
+    font-size: 1.5rem;
+  }
 }
 
 @media (max-width: 400px) {
-    .main-header {
-        font-size: 1rem;
-        
-    }
+  .main-header {
+    font-size: 1rem;
+  }
 }

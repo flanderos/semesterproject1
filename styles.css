@@ -12,8 +12,8 @@ body {
   font-family: "Bakbak One", cursive;
   max-width: 2000px;
   margin: auto;
+  overflow-x: hidden;
 
-  /*cursor:url(images/pointer.png), auto;*/
 }
 
 a {

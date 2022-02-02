@@ -76,7 +76,7 @@
 
 .cosmology-frame {
   width: 40%;
-  padding: 20px;
+  padding-left: 20px;
 }
 
 .cosmoheading {
@@ -93,9 +93,9 @@
 }
 
 .cosmology-image {
-  width: 600px;
+  width: 90%;
   height: 400px;
-  margin: 40px;
+  margin: auto;
   background-image: url(/images/william-bout-264826.jpg);
   background-size: contain;
   background-position: center;
@@ -111,12 +111,14 @@
 }
 
 .evolution-image {
-  width: 600px;
+  width: 90%;
   height: 400px;
+  margin: auto;
   background-image: url(/images/skeleton-414543_1920.jpg);
+  background-size: contain;
   background-position: center;
-  background-size: cover;
   background-repeat: no-repeat;
+  
 }
 
 .evolution-txt {
@@ -135,6 +137,8 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    width: auto;
+
 }
 
 .biology-txt {
@@ -146,7 +150,7 @@
 
 .biology-image {
     height: 400px;
-    width: 600px;
+    width: 50%;
     border: 1px solid black;
     background-image: url(/images/samuel-zeller-113381.jpg);
     background-position: center;
@@ -164,7 +168,7 @@
 
 .ecology-image {
     height: 400px;
-    width: 600px;
+    width: 90%;
     border: 1px solid black;
     background-image: url(/images/genoa-956405_1920.jpg);
     background-position: center;
@@ -197,7 +201,7 @@
 
 .robotics-image {
     height: 400px;
-    width: 600px;
+    width: 90%;
     background-image: url(/images/owen-beard-K21Dn4OVxNw-unsplash.jpg);
     background-position: center;
     background-size: cover;
@@ -211,13 +215,23 @@
 }
 
 @media (max-width: 1200px) {
+ 
+
+
+  .cosmoheading {
+    font-size: 3rem;
+  }
+
+
   .frame-one {
     flex-direction: column;
     align-items: center;
+    font-size: 0.5rem;
   }
 
   .cosmology-frame {
     width: 90%;
+  
   }
 
   .frame-two {
@@ -230,6 +244,7 @@
 
   .frame-three {
       flex-direction: column;
+      
   }
 
   .biology-txt {

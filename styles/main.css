@@ -333,6 +333,33 @@
   .main-heading {
     font-size: 3rem;
   }
+
+  .cosmoheading {
+    font-size: 1.5rem;
+  }
+
+  .cosmology-image {
+    margin-bottom: 20px;
+    height: 300px;
+    margin: auto;
+    
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+
+  .explore-txt {
+    font-size: 0.9rem;
+  }
+
+  .evolution-image {
+    margin: auto;
+    height: 200px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+
 }
 
 @media (max-width: 600px) {

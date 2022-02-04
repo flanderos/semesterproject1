@@ -1,3 +1,13 @@
+:root {
+  --main-btn-color: #b4e2ee;
+  --main-h2-color: #54a83f;
+  --main-bg-color: rgb(217, 245, 219);
+}
+
+.main-body {
+  background-color: var(--main-bg-color);
+}
+
 #topheader {
   background-color: rgb(29, 28, 28);
   color: #fff;
@@ -5,9 +15,8 @@
   max-width: 2000px;
   width: 100%;
   z-index: 0;
-  opacity: 80%  ;
+  opacity: 80%;
 }
-
 
 .mainheader {
   background-color: rgb(29, 28, 28);
@@ -26,7 +35,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
-  
 }
 
 .main-heading {
@@ -40,7 +48,7 @@
 }
 
 .main-heading:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 @keyframes fly-in {
@@ -63,43 +71,50 @@
   display: flex;
   flex-direction: row;
   z-index: 1;
-  
 }
 
 .frame-one {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: space-between;
   margin-top: 10rem;
+  margin-bottom: 5rem;
+  border: 1px solid black;
+  margin: 20px;
+  background-color: #fff;
+  text-align: left;
 }
 
 .cosmology-frame {
   width: 40%;
-  padding-left: 20px;
+  margin-left: 20px;
 }
 
 .cosmoheading {
-    font-size: 4rem;
-    width: 40%;
-    color: rgb(167, 164, 164);
-    opacity: 30%;
-    font-family: "poppins";
+  font-size: 4rem;
+  color: var(--main-btn-color);
+  font-family: "poppins";
+  border-bottom: 3px solid rgb(219, 219, 219);
 }
 
 .explore-txt {
   font-family: monospace;
   font-size: 1.4rem;
+  
 }
 
 .cosmology-image {
-  width: 90%;
+  width: 40%;
   height: 400px;
+  min-width: 350px;
   margin: auto;
+  margin-left: 5em;
+  margin-right: 20px;
   background-image: url(/images/william-bout-264826.jpg);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+  margin-top: 5rem;
 }
 
 .frame-two {
@@ -107,24 +122,30 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  border: 1px solid black;
+  margin-bottom: 5rem;
+  margin: 20px;
+  background-color: #fff;
 }
 
 .evolution-image {
-  width: 90%;
+  width: 34%;
+  min-width: 350px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-top: 2.7rem;
   height: 400px;
-  margin: auto;
   background-image: url(/images/skeleton-414543_1920.jpg);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  
 }
 
 .evolution-txt {
-  width: 40%;
+  width: 37%;
   font-family: monospace;
   font-size: 1.4rem;
+  margin-right: 20px;
 }
 
 .trio-box {
@@ -133,109 +154,137 @@
 }
 
 .frame-three {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    width: auto;
-
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: auto;
+  margin-bottom: 5rem;
+  border: 1px solid black;
+  margin: 20px;
+  background-color: #fff;
 }
 
 .biology-txt {
-    font-family: monospace;
-    font-size: 1.4rem;
-    width: 40%;
-    
+  font-family: monospace;
+  font-size: 1.4rem;
+  width: 40%;
+  margin: 20px;
 }
 
 .biology-image {
-    height: 400px;
-    width: 50%;
-    border: 1px solid black;
-    background-image: url(/images/samuel-zeller-113381.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+  height: 400px;
+  min-width: 350px;
+  background-image: url(/images/samuel-zeller-113381.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: auto;
 }
 
 .frame-four {
-    display: flex;
-    flex-direction: row; 
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border: 1px solid black;
+  margin-bottom: 5rem;
+  margin: 20px;
+  background-color: #fff;
 }
 
 .ecology-image {
-    height: 400px;
-    width: 90%;
-    border: 1px solid black;
-    background-image: url(/images/genoa-956405_1920.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+  height: 400px;
+  width: 50%;
+  min-width: 350px;
+  margin-top: 1rem;
+  background-image: url(/images/genoa-956405_1920.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 20px;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  margin-right: 20px;
 }
 
 .ecology-text {
-    font-family: monospace;
-    font-size: 1.4rem;
-    width: 40%;
-    
-
+  font-family: monospace;
+  font-size: 1.4rem;
+  width: 60%;
+  margin-left: 30rem;
+  margin-right: 20px;
 }
 
 .frame-five {
-    display: flex;
-    flex-direction: row;
-    padding: 20px;
-    justify-content: space-around;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid black;
+  margin-bottom: 5rem;
+  background-color: #fff;
 }
 
 .robotics-txt {
-    width: 40%;
-    font-family: monospace;
-    font-size: 1.4rem;
-    
+  margin-left: 20px;
+  width: 40%;
+  font-family: monospace;
+  font-size: 1.4rem;
 }
 
 .robotics-image {
-    height: 400px;
-    width: 90%;
-    background-image: url(/images/owen-beard-K21Dn4OVxNw-unsplash.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+  margin: auto;
+  height: 400px;
+  width: 30%;
+  min-width: 350px;
+  background-image: url(/images/owen-beard-K21Dn4OVxNw-unsplash.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .footerheading {
-    position: relative;
-    font-size: 4rem;
-    color: rgb(107, 96, 96);
+  position: relative;
+  font-size: 4rem;
+  color: rgb(107, 96, 96);
 }
 
 @media (max-width: 1200px) {
- 
-
-
   .cosmoheading {
-    font-size: 3rem;
+    font-size: 2rem;
+    
   }
 
+  p {
+    font-size: 1.3rem;
+  }
+
+  .explore-txt {
+    font-size: 1.3rem;
+  }
 
   .frame-one {
     flex-direction: column;
     align-items: center;
-    font-size: 0.5rem;
   }
 
   .cosmology-frame {
     width: 90%;
-  
+    padding-left: 0;
+  }
+
+  .cosmology-image {
+    margin: auto;
   }
 
   .frame-two {
     flex-direction: column-reverse;
+    align-items: center;
+    text-align: left;
   }
 
   .evolution-txt {
@@ -243,40 +292,50 @@
   }
 
   .frame-three {
-      flex-direction: column;
-      
+    flex-direction: column;
   }
 
   .biology-txt {
-      width: 90%;
+    width: 90%;
+  }
+
+  .biology-image {
+    margin-bottom: 20px;
   }
 
   .frame-four {
-      flex-direction: column-reverse;
+    flex-direction: column-reverse;
   }
 
   .ecology-text {
-      width: 90%;
+    width: 90%;
+    margin: auto;
   }
+
+  .ecology-image {
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
   .frame-five {
-      flex-direction: column;
+    flex-direction: column;
   }
   .robotics-txt {
-      width: 90%;
+    width: 90%;
   }
 
   .main-heading {
-    font-size: 4rem ;
+    font-size: 4rem;
   }
 }
 
-@media (max-width:800px ) {
+@media (max-width: 800px) {
   .main-heading {
     font-size: 3rem;
   }
 }
 
-@media (max-width:600px) {
+@media (max-width: 600px) {
   .main-heading {
     font-size: 2rem;
   }

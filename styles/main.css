@@ -106,7 +106,7 @@
 .cosmology-image {
   width: 40%;
   height: 400px;
-  min-width: 350px;
+  min-width: 300px;
   margin: auto;
   margin-left: 5em;
   margin-right: 20px;
@@ -130,7 +130,7 @@
 
 .evolution-image {
   width: 34%;
-  min-width: 350px;
+  min-width: 300px;
   margin-left: 20px;
   margin-bottom: 20px;
   margin-top: 2.7rem;
@@ -174,7 +174,7 @@
 
 .biology-image {
   height: 400px;
-  min-width: 350px;
+  min-width: 300px;
   background-image: url(/images/samuel-zeller-113381.jpg);
   background-position: center;
   background-size: contain;
@@ -196,7 +196,7 @@
 .ecology-image {
   height: 400px;
   width: 50%;
-  min-width: 350px;
+  min-width: 300px;
   margin-top: 1rem;
   background-image: url(/images/genoa-956405_1920.jpg);
   background-position: center;
@@ -238,7 +238,7 @@
   margin: auto;
   height: 400px;
   width: 30%;
-  min-width: 350px;
+  min-width: 300px;
   background-image: url(/images/owen-beard-K21Dn4OVxNw-unsplash.jpg);
   background-position: center;
   background-size: contain;

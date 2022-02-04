@@ -331,7 +331,7 @@
 
 @media (max-width: 800px) {
   .main-heading {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
 
   .cosmology-frame {
@@ -388,6 +388,6 @@
 
 @media (max-width: 600px) {
   .main-heading {
-    font-size: 2.7rem;
+    font-size: 2.5rem;
   }
 }

@@ -1,6 +1,8 @@
 @import url(fonts/Lorindra);
 :root {
   --main-btn-color: #00c3f5;
+  --main-btn-color: #54a83f;
+  --main-bg-color: rgb(217, 245, 219);
 }
 
 html {
@@ -316,6 +318,15 @@ a:hover {
     max-width: 90%;
     font-size: 1rem;
   }
+
+  .landingpagefooter {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+
 }
 
 @media (max-width: 800px) {

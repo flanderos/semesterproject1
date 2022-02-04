@@ -331,12 +331,18 @@
 
 @media (max-width: 800px) {
   .main-heading {
-    font-size: 3rem;
+    font-size: 3.5rem;
+  }
+
+  .cosmology-frame {
+    margin-right: 20px;
   }
 
   .cosmoheading {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
+
+  
 
   .cosmology-image {
     margin-bottom: 20px;
@@ -351,6 +357,7 @@
 
   .explore-txt {
     font-size: 0.9rem;
+    margin: auto;
   }
 
   .evolution-image {
@@ -362,8 +369,25 @@
 
 }
 
+.evolution-txt {
+  margin: auto;
+}
+
+.biology-txt {
+  margin: auto;
+}
+
+.ecology-text {
+  margin: auto;
+}
+
+
+.week {
+  padding-inline-start: 0;
+}
+
 @media (max-width: 600px) {
   .main-heading {
-    font-size: 2rem;
+    font-size: 2.7rem;
   }
 }

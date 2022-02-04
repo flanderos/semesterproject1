@@ -2,13 +2,11 @@
     background-color: rgb(167, 164, 164);
 }
 
-#topheader {
-    position: fixed;
-}
+
 
 .eventsheader {
     width: 100%;
-    min-height: 80vh;
+    min-height: 70vh;
     background-image: url(/images/scott-webb-102825.jpg);
     background-position: center;
     background-size: cover;
@@ -20,9 +18,10 @@
 .eventsheading {
     color: #fff;
     font-size: 5rem;
-    z-index: 4;
-    position: fixed;
+    
     margin: auto;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000c, -1px 1px 0 #000c,
+    1px 1px 0 #000c;
     
 }
 
@@ -39,6 +38,7 @@
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding: 20px;
     margin-bottom: 20px;
+    height: 70vh;
 }
 
 .eventname {
@@ -111,20 +111,77 @@
     cursor: pointer;
 }
 
+/* THE ICON */
+
 #liked {
     display: none;
 }
 
-.liked {
-    position:absolute;
-    vertical-align: middle;
-    margin: auto;
+#liked2 {
     display: none;
+}
+
+#liked3 {
+    display: none;
+}
+
+/* THE ICON */
+
+.liked {
     
-    
+    vertical-align: middle;
+    transform: translateX(-1500px);
+}
+
+.hover:hover {
+    cursor: pointer;
 }
 
 #liked:checked ~ .liked {
     display: block;
+    transform: translateX(0);
+    transition: 0.5s;
 }
 
+.liked2 {
+    
+    vertical-align: middle;
+    transform: translateX(-1500px);
+    
+    
+}
+
+#liked2:checked ~ .liked2 {
+    display: block;
+    transform: translateX(0);
+    transition: 0.5s;
+}
+
+.liked3 {
+    display: block;
+    transform: translateX(-1500px);
+}
+
+#liked3:checked ~ .liked3 {
+    display: block;
+    transform: translateX(0);
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+@media (max-width:1000px) {
+    .eventsheading {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width:600px) {
+    .eventsheading {
+        font-size: 2.5rem;
+    }
+}

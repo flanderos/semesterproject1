@@ -82,16 +82,15 @@ a:hover {
   transition: 1s;
 }
 
-/* THIS */
+/* CHANGE MENU HEIGHT WITH FONT SIZE */
 
 #hamburger-menu:checked ~ .mainmenu {
   transform: translateY(0);
-  font-size: 3.3rem;
   position: static;
   margin: auto;
 }
 
-/* THIS */
+/* CHANGE MENU HEIGHT WITH FONT SIZE */
 
 .mainmenu ul {
   display: flex;
@@ -340,6 +339,15 @@ a:hover {
 }
 
 @media (max-width: 800px) {
+
+  #hamburger-menu:checked ~ .mainmenu {
+    transform: translateY(0);
+    font-size: 3.3rem;
+    position: static;
+    margin: auto;
+  }
+
+
   .mainmenu ul {
     display: flex;
     flex-direction: column;

@@ -1,5 +1,14 @@
+
+:root {
+    --main-btn-color: #00c3f5;
+    --main-btn-color: #54a83f;
+    --main-bg-color: rgb(217, 245, 219);
+    --main-pink-color: rgb(250, 202, 238);
+  }
+
 .eventbody {
     background-color: rgb(167, 164, 164);
+    overflow-x: hidden;
 }
 
 
@@ -18,7 +27,6 @@
 .eventsheading {
     color: #fff;
     font-size: 5rem;
-    
     margin: auto;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000c, -1px 1px 0 #000c,
     1px 1px 0 #000c;
@@ -38,16 +46,21 @@
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding: 20px;
     margin-bottom: 20px;
-    height: 70vh;
+    overflow-x: hidden;
+    
 }
 
 .eventname {
     font-family: 'Andika', sans-serif;
+    border-bottom: 3px solid var(--main-pink-color);
+
 }
 
 .eventoneimage {
-    height: 300px;
+    
+    min-height: 300px;
     width: 500px;
+    min-width:400px ;
     border: 1px solid black;
     background-image: url(/images/trust-tru-katsande-6q5QG8iIgRo-unsplash.jpg);
     background-position: center;
@@ -90,11 +103,13 @@
     justify-content: flex-start;
     margin-block-start: 0;
     padding-inline-start: 0;
-    
+   
 }
 
 .timeanddate li {
     font-size: 1.4rem;
+    padding-right: 40px;
+    
     
 }
 
@@ -178,10 +193,30 @@
     .eventsheading {
         font-size: 4rem;
     }
+
+    .eventbox {
+        align-items: center;
+    }
+
+    .eventtxt {
+        width: 90%;
+    }
+
+    .eventoneimage {
+       max-width: 250px;
+    }
 }
 
 @media (max-width:600px) {
     .eventsheading {
         font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 430px) {
+    .eventoneimage {
+        display: block;
+        margin-left: 5px;
+        margin-right: 5px;
     }
 }

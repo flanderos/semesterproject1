@@ -83,9 +83,9 @@
 }
 
 .cosmoheading {
-  font-size: 4rem;
+  font-size: 3rem;
   color: var(--main-btn-color);
-  font-family: "poppins";
+  font-family: 'Russo One', sans-serif;
   border-bottom: 3px solid rgb(219, 219, 219);
 }
 
@@ -243,6 +243,20 @@
   position: relative;
   font-size: 4rem;
   color: rgb(107, 96, 96);
+}
+
+.more {
+  color: #000;
+  font-size: 2rem;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  
+  
+}
+
+.click {
+  font-size: 3rem;
 }
 
 @media (max-width: 1200px) {

@@ -8,8 +8,6 @@
   background-color: var(--main-bg-color);
 }
 
-
-
 .mainheader {
   background-color: rgb(29, 28, 28);
   color: #fff;
@@ -18,6 +16,10 @@
   width: 100%;
   z-index: 2;
   top: 0;
+}
+
+.active {
+  text-decoration: underline;
 }
 
 .main-top {
@@ -55,7 +57,6 @@
 .scrolldown {
   z-index: 3;
   margin: auto;
-  
 }
 
 .main-frame {
@@ -85,14 +86,13 @@
 .cosmoheading {
   font-size: 3rem;
   color: var(--main-btn-color);
-  font-family: 'Russo One', sans-serif;
+  font-family: "Russo One", sans-serif;
   border-bottom: 3px solid rgb(219, 219, 219);
 }
 
 .explore-txt {
   font-family: monospace;
   font-size: 1.4rem;
-  
 }
 
 .cosmology-image {
@@ -251,8 +251,6 @@
   display: inline-block;
   text-align: center;
   width: 100%;
-  
-  
 }
 
 .click {
@@ -262,7 +260,6 @@
 @media (max-width: 1200px) {
   .cosmoheading {
     font-size: 2rem;
-    
   }
 
   p {
@@ -348,13 +345,10 @@
     font-size: 1.3rem;
   }
 
-  
-
   .cosmology-image {
     margin-bottom: 20px;
     height: 300px;
     margin: auto;
-    
   }
 
   p {
@@ -371,32 +365,27 @@
     height: 200px;
     margin-bottom: 20px;
     margin-top: 20px;
-    
-
-}
-
-.evolution-txt {
-  margin: auto;
-}
-
-.biology-txt {
-  margin: auto;
-}
-
-.ecology-text {
-  margin: auto;
-}
-
-
-.week {
-  padding-inline-start: 0;
-}
-
-@media (max-width: 600px) {
-  .main-heading {
-    font-size: 2.5rem;
-  
   }
 
+  .evolution-txt {
+    margin: auto;
+  }
+
+  .biology-txt {
+    margin: auto;
+  }
+
+  .ecology-text {
+    margin: auto;
+  }
+
+  .week {
+    padding-inline-start: 0;
+  }
+
+  @media (max-width: 600px) {
+    .main-heading {
+      font-size: 2.5rem;
+    }
   }
 }

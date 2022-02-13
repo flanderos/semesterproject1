@@ -16,7 +16,6 @@ body {
   max-width: 2000px;
   margin: auto;
   overflow-x: hidden;
-
 }
 
 a {
@@ -42,6 +41,10 @@ a:hover {
   padding: 1rem;
   transform: translateY(-1500px);
   transition: 0.5s;
+}
+
+.active {
+  text-decoration: underline;
 }
 
 .homeicon {
@@ -100,7 +103,7 @@ a:hover {
   list-style-type: none;
   align-items: flex-start;
   padding-inline-start: 0;
-  font-family: 'Londrina Sketch', cursive;
+  font-family: "Londrina Sketch", cursive;
 }
 
 .hamburgerbtn {
@@ -151,8 +154,6 @@ a:hover {
   padding: 0.5rem;
   text-align: center;
   min-width: 300px;
-  
-  
 }
 
 .cta-btn:hover {
@@ -164,7 +165,7 @@ a:hover {
   color: #fff;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000c, -1px 1px 0 #000c,
     1px 1px 0 #000c;
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 .first-section {
@@ -219,7 +220,7 @@ a:hover {
 
 .kidsheading {
   font-size: 4rem;
-  font-family: 'Londrina Sketch', cursive;
+  font-family: "Londrina Sketch", cursive;
   color: var(--main-btn-color);
   text-decoration: underline;
 }
@@ -230,14 +231,13 @@ a:hover {
 
 .for-kids-txt {
   padding-top: 1rem;
-  
 }
 
 .teacherheading {
   font-size: 4rem;
   color: rgb(0, 0, 0);
   text-decoration: underline;
-  font-family: 'Londrina Sketch', cursive;
+  font-family: "Londrina Sketch", cursive;
 }
 
 .teachers-box {
@@ -258,16 +258,9 @@ a:hover {
   padding: 0.5rem;
   text-align: center;
   min-width: 300px;
-  position: relative;  
+  position: relative;
   width: 100%;
-  
 }
-
-
-
-
-
-
 
 .landingpagefooter {
   color: #0e0e0c;
@@ -295,7 +288,7 @@ a:hover {
 
 .visitbox {
   margin: auto;
-  display: flex;  
+  display: flex;
   flex-direction: column;
   width: 60%;
 }
@@ -307,22 +300,19 @@ a:hover {
 /* MEDIA QUERYS */
 
 @media (max-width: 1000px) {
-
   .visitbox {
     width: 90%;
   }
 
-
-.second-section {
-  margin: auto;
-  width: 90%;
-  padding: 10px;
-}
+  .second-section {
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+  }
 
   #topheader {
-    display:flex;
+    display: flex;
     position: relative;
-    
   }
 
   .black-box {
@@ -331,23 +321,18 @@ a:hover {
     padding: 10px;
   }
 
-
   .mainmenu ul {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    
-    
   }
-  
+
   .hamburger-icon {
     display: block;
-    
-    
   }
 
   .mainmenu {
-    margin:0 ;
+    margin: 0;
   }
 
   .main-header {
@@ -371,19 +356,15 @@ a:hover {
     flex-direction: column;
     align-items: center;
   }
-  
-
 }
 
 @media (max-width: 800px) {
-
   #hamburger-menu:checked ~ .mainmenu {
     transform: translateY(0);
     font-size: 3.3rem;
     position: static;
     margin: auto;
   }
-
 
   .mainmenu ul {
     display: flex;
@@ -398,8 +379,6 @@ a:hover {
   .hamburgerbtn {
     display: block;
   }
-
-  
 }
 
 @media (max-width: 600px) {
@@ -411,7 +390,6 @@ a:hover {
     font-size: 4vw;
     min-width: 150px;
   }
-
 }
 
 @media (max-width: 400px) {

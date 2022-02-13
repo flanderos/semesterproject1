@@ -1,224 +1,202 @@
-
 :root {
-    --main-btn-color: #00c3f5;
-    --main-btn-color: #54a83f;
-    --main-bg-color: rgb(217, 245, 219);
-    --main-pink-color: rgb(250, 202, 238);
-  }
-
-.eventbody {
-    background-color: rgb(167, 164, 164);
-    overflow-x: hidden;
+  --main-btn-color: #00c3f5;
+  --main-btn-color: #54a83f;
+  --main-bg-color: rgb(217, 245, 219);
+  --main-pink-color: rgb(250, 202, 238);
 }
 
-
+.eventbody {
+  background-color: rgb(167, 164, 164);
+  overflow-x: hidden;
+}
 
 .eventsheader {
-    width: 100%;
-    min-height: 70vh;
-    background-image: url(/images/scott-webb-102825.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
+  width: 100%;
+  min-height: 70vh;
+  background-image: url(/images/scott-webb-102825.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
 }
 
 .eventsheading {
-    color: #fff;
-    font-size: 5rem;
-    margin: auto;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000c, -1px 1px 0 #000c,
+  color: #fff;
+  font-size: 5rem;
+  margin: auto;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000c, -1px 1px 0 #000c,
     1px 1px 0 #000c;
-    
 }
 
 .allevents {
-    display: flex;
-    flex-direction: column;
-    margin: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
 }
 
 .eventbox {
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(255, 255, 255);
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    padding: 20px;
-    margin-bottom: 20px;
-    overflow-x: hidden;
-    
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  overflow-x: hidden;
 }
 
 .eventname {
-    font-family: 'Andika', sans-serif;
-    border-bottom: 3px solid var(--main-pink-color);
-
+  font-family: "Andika", sans-serif;
+  border-bottom: 3px solid var(--main-pink-color);
 }
 
 .eventoneimage {
-    
-    min-height: 300px;
-    width: 500px;
-    min-width:400px ;
-    border: 1px solid black;
-    background-image: url(/images/trust-tru-katsande-6q5QG8iIgRo-unsplash.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  min-height: 300px;
+  width: 500px;
+  min-width: 400px;
+  border: 1px solid black;
+  background-image: url(/images/trust-tru-katsande-6q5QG8iIgRo-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .eventtxt {
-    width: 50%;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 1.1rem;
-    
+  width: 50%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.1rem;
 }
 
 .eventtwoimage {
-    height: 300px;
-    width: 500px;
-    border: 1px solid black;
-    background-image: url(/images/roberto-nickson-396152.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
+  height: 300px;
+  width: 500px;
+  border: 1px solid black;
+  background-image: url(/images/roberto-nickson-396152.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .eventthreeimage {
-    height: 300px;
-    width: 500px;
-    border: 1px solid black;
-    background-image: url(/images/scientific-2040795_1280.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  height: 300px;
+  width: 500px;
+  border: 1px solid black;
+  background-image: url(/images/scientific-2040795_1280.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-
 .timeanddate {
-    list-style-type:none;
-    display: flex;
-    justify-content: flex-start;
-    margin-block-start: 0;
-    padding-inline-start: 0;
-   
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  margin-block-start: 0;
+  padding-inline-start: 0;
 }
 
 .timeanddate li {
-    font-size: 1.4rem;
-    padding-right: 40px;
-    
-    
+  font-size: 1.4rem;
+  padding-right: 40px;
 }
 
 .interestedbox {
-    height: 20px;
-    width: 200px;
-    border: 1px solid black;
-    
-
+  height: 20px;
+  width: 200px;
+  border: 1px solid black;
 }
 
 .interestedbutton:hover {
-    transform: scale(1);
-    cursor: pointer;
+  transform: scale(1);
+  cursor: pointer;
 }
 
 /* THE ICON */
 
 #liked {
-    display: none;
+  display: none;
 }
 
 #liked2 {
-    display: none;
+  display: none;
 }
 
 #liked3 {
-    display: none;
+  display: none;
 }
 
 /* THE ICON */
 
 .liked {
-    
-    vertical-align: middle;
-    transform: translateX(-1500px);
+  vertical-align: middle;
+  transform: translateX(-1500px);
 }
 
 .hover:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 #liked:checked ~ .liked {
-    display: block;
-    transform: translateX(0);
-    transition: 0.5s;
+  display: block;
+  transform: translateX(0);
+  transition: 0.5s;
 }
 
 .liked2 {
-    
-    vertical-align: middle;
-    transform: translateX(-1500px);
-    
-    
+  vertical-align: middle;
+  transform: translateX(-1500px);
 }
 
 #liked2:checked ~ .liked2 {
-    display: block;
-    transform: translateX(0);
-    transition: 0.5s;
+  display: block;
+  transform: translateX(0);
+  transition: 0.5s;
 }
 
 .liked3 {
-    display: block;
-    transform: translateX(-1500px);
+  display: block;
+  transform: translateX(-1500px);
 }
 
 #liked3:checked ~ .liked3 {
-    display: block;
-    transform: translateX(0);
-    transition: 0.5s;
+  display: block;
+  transform: translateX(0);
+  transition: 0.5s;
 }
-
 
 .more {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
+@media (max-width: 1000px) {
+  .eventsheading {
+    font-size: 4rem;
+  }
 
+  .eventbox {
+    align-items: center;
+  }
 
+  .eventtxt {
+    width: 90%;
+  }
 
-@media (max-width:1000px) {
-    .eventsheading {
-        font-size: 4rem;
-    }
-
-    .eventbox {
-        align-items: center;
-    }
-
-    .eventtxt {
-        width: 90%;
-    }
-
-    .eventoneimage {
-       max-width: 250px;
-    }
+  .eventoneimage {
+    max-width: 250px;
+  }
 }
 
-@media (max-width:600px) {
-    .eventsheading {
-        font-size: 2.5rem;
-    }
+@media (max-width: 600px) {
+  .eventsheading {
+    font-size: 2.5rem;
+  }
 }
 
 @media (max-width: 430px) {
-    .eventoneimage {
-        display: block;
-        margin-left: 5px;
-        margin-right: 5px;
-    }
+  .eventoneimage {
+    display: block;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
 }

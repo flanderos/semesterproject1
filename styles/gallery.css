@@ -1,90 +1,77 @@
 .gallery.html {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-
-
 .galleryheading {
-    font-size: 3rem;
-    margin: auto;
-    display:flex;
-    justify-content: center;
-    margin-top: 5rem;
-    font-family: 'Poppins', sans-serif;
-    border-bottom: 3px solid black;
-    width: 50%;
+  color: #fff;
+  font-size: 3rem;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+  font-family: "Poppins", sans-serif;
+  border-bottom: 3px solid black;
+  width: 50%;
+  z-index: 20;
+  color: #fff;
+  position: relative;
 }
 
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    text-align: center;
-    margin: auto;
-    margin-top: 5rem;
-    
-
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+  margin: auto;
+  margin-top: 5rem;
 }
 
-
 .box {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    width: 32%;
-    padding: 0.2%;
-    height: auto;
-    margin-bottom: 1rem;
-    
-    
-    
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 32%;
+  padding: 0.2%;
+  height: auto;
+  margin-bottom: 1rem;
 }
 
 .image {
-    margin-bottom: 1%;
-    border-radius: 10px;
-}
-
-.galleryheading {
-    z-index: 20;
-    color: #000;
-    position: relative;
+  margin-bottom: 1%;
+  border-radius: 10px;
 }
 
 
-@media (max-width: 800px) { 
-    .image {
-        max-width: 400px ;
-        max-height: 500px;
-    }
+@media (max-width: 800px) {
+  .image {
+    max-width: 400px;
+    max-height: 500px;
+  }
 
-    .galleryheading {
-        font-size: 2rem;
-    }
+  .galleryheading {
+    font-size: 2rem;
+  }
 
-    .container {
-        flex-direction: column;
-        width: 95%;
+  .container {
+    flex-direction: column;
+    width: 95%;
 
-        align-items: center;
-    }
+    align-items: center;
+  }
 
-    .box {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 98%;
-        height: auto;
-    }
-
+  .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 98%;
+    height: auto;
+  }
 }
 
 @media (max-width: 600px) {
-    .galleryheading {
-        font-size: 1.5rem;
-    }
+  .galleryheading {
+    font-size: 1.5rem;
+  }
 }
-
-

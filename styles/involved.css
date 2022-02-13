@@ -1,10 +1,9 @@
 .container {
-    min-height: 90vh;
-    margin-top: 10rem;
+  min-height: 90vh;
+  margin-top: 10rem;
 }
 
 .involvedtxt {
-    width: 90%;
-    margin: auto;
-    
+  width: 90%;
+  margin: auto;
 }
